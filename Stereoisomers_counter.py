@@ -1,5 +1,5 @@
 from rdkit import Chem
-mol=Chem.MolFromSmiles("CC(N)(Cl)C(O)C(=O)O")
+mol=Chem.MolFromSmiles("enter your molecule's smiles code")
 if mol is None:
     print("Invalid SMILES string")
 else: 
